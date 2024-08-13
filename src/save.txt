@@ -1,0 +1,10 @@
+      <div>{t("hello")}</div>
+      <div>
+        <select value={l} onChange={(e) => c(e.target.value)}>
+          {a.map((lang) => (
+            <option key={lang} value={lang}>
+              {lang}
+            </option>
+          ))}
+        </select>
+      </div>
